@@ -11,17 +11,17 @@ Laptop::Laptop(int Work_Time, int Weight, short Price, std::string Country) : De
 	cout << "Laptop is on" << endl;
 }
 void Laptop::Show_Info() {
-	cout << "âðåìÿ ðàáîòû äåâàéñà:" << _Work_Time << endl;
-	cout << "ìàññà äåâàéñà:" << _Weight << endl;
-	cout << "öåíà äåâàéñà: " << _Price << endl;
-	cout << "Ñòðàíà-ïðîèçâîäèòåëü: " << _Country << endl;
+	cout << "Ð²Ñ€ÐµÐ¼Ñ Ñ€Ð°Ð±Ð¾Ñ‚Ñ‹ Ð´ÐµÐ²Ð°Ð¹ÑÐ°:" << _Work_Time << endl;
+	cout << "Ð¼Ð°ÑÑÐ° Ð´ÐµÐ²Ð°Ð¹ÑÐ°:" << _Weight << endl;
+	cout << "Ñ†ÐµÐ½Ð° Ð´ÐµÐ²Ð°Ð¹ÑÐ°: " << _Price << endl;
+	cout << "Ð¡Ñ‚Ñ€Ð°Ð½Ð°-Ð¿Ñ€Ð¾Ð¸Ð·Ð²Ð¾Ð´Ð¸Ñ‚ÐµÐ»ÑŒ: " << _Country << endl;
 }
 Mouse::Mouse(int Work_Time, int Weight, short Price, std::string Country) : Devices(Work_Time, Weight, Price, Country) {
 	cout << "Mouse is on" << endl;
 }
 void Mouse::Show_Info() {
-	cout << "âðåìÿ ðàáîòû äåâàéñà:" << Devices::_Work_Time << endl;
-	cout << "ìàññà äåâàéñà:" << Devices::_Weight << endl;
-	cout << "öåíà äåâàéñà: " << Devices::_Price << endl;
-	cout << "Ñòðàíà-ïðîèçâîäèòåëü: " << Devices::_Country << endl;
+	cout << "Ð²Ñ€ÐµÐ¼Ñ Ñ€Ð°Ð±Ð¾Ñ‚Ñ‹ Ð´ÐµÐ²Ð°Ð¹ÑÐ°:" << Devices::_Work_Time << endl;
+	cout << "Ð¼Ð°ÑÑÐ° Ð´ÐµÐ²Ð°Ð¹ÑÐ°:" << Devices::_Weight << endl;
+	cout << "Ñ†ÐµÐ½Ð° Ð´ÐµÐ²Ð°Ð¹ÑÐ°: " << Devices::_Price << endl;
+	cout << "Ð¡Ñ‚Ñ€Ð°Ð½Ð°-Ð¿Ñ€Ð¾Ð¸Ð·Ð²Ð¾Ð´Ð¸Ñ‚ÐµÐ»ÑŒ: " << Devices::_Country << endl;
 }

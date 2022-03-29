@@ -10,18 +10,17 @@ Microwave::Microwave(int Time, int Cost, int Mass, std::string Company) :Equipme
 	cout << "It's Microwave" << endl;
 }
 void Microwave::Show_Info() {
-	cout << "âðåìÿ ðàáîòû äåâàéñà:" << _Time << endl;
-	cout << "ìàññà äåâàéñà:" << _Mass << endl;
-	cout << "öåíà äåâàéñà: " << _Cost << endl;
-	cout << "Ñòðàíà-ïðîèçâîäèòåëü: " << _Company << endl;
+	cout << "Ð²Ñ€ÐµÐ¼Ñ Ñ€Ð°Ð±Ð¾Ñ‚Ñ‹ Ð´ÐµÐ²Ð°Ð¹ÑÐ°:" << _Time << endl;
+	cout << "Ð¼Ð°ÑÑÐ° Ð´ÐµÐ²Ð°Ð¹ÑÐ°:" << _Mass << endl;
+	cout << "Ñ†ÐµÐ½Ð° Ð´ÐµÐ²Ð°Ð¹ÑÐ°: " << _Cost << endl;
+	cout << "Ð¡Ñ‚Ñ€Ð°Ð½Ð°-Ð¿Ñ€Ð¾Ð¸Ð·Ð²Ð¾Ð´Ð¸Ñ‚ÐµÐ»ÑŒ: " << _Company << endl;
 }
 Electric_Drill::Electric_Drill(int Time, int Cost, int Mass, std::string Company) :Equipment(Time, Cost, Mass, Company) {
 	cout << "It's Electric_Drill" << endl;
 }
 void Electric_Drill::Show_Info() {
-	cout << "âðåìÿ ðàáîòû äåâàéñà:" << _Time << endl;
-	cout << "ìàññà äåâàéñà:" << _Mass << endl;
-	cout << "öåíà äåâàéñà: " << _Cost << endl;
-	cout << "êîìïàíèÿ-ïðîèçâîäèòåëü" << _Company << endl;
-	
+	cout << "Ð²Ñ€ÐµÐ¼Ñ Ñ€Ð°Ð±Ð¾Ñ‚Ñ‹ Ð´ÐµÐ²Ð°Ð¹ÑÐ°:" << _Time << endl;
+	cout << "Ð¼Ð°ÑÑÐ° Ð´ÐµÐ²Ð°Ð¹ÑÐ°:" << _Mass << endl;
+	cout << "Ñ†ÐµÐ½Ð° Ð´ÐµÐ²Ð°Ð¹ÑÐ°: " << _Cost << endl;
+	cout << "ÐºÐ¾Ð¼Ð¿Ð°Ð½Ð¸Ñ-Ð¿Ñ€Ð¾Ð¸Ð·Ð²Ð¾Ð´Ð¸Ñ‚ÐµÐ»ÑŒ" << _Company << endl;	
 }
